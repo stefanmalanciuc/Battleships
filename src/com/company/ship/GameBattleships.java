@@ -1,8 +1,10 @@
 package com.company.ship;
 
+import com.company.Move;
+
 public interface GameBattleships {
 
-    void attack();
-    void placeShip();
+    void attack(Move moveToAttack);
+    void placeShip(Ship shipToPlace);
 }
 

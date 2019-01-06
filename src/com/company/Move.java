@@ -2,8 +2,11 @@ package com.company;
 
 public class Move {
 
-    int line;
-    int column;
+    private int line;
+    private int column;
 
-
+    public Move(int line, int column) {
+        this.line = line;
+        this.column = column;
+    }
 }
