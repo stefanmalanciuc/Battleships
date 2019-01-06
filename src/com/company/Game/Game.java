@@ -17,6 +17,10 @@ public class Game implements GameBattleships {
         currentRound =1;
     }
 
+    public void initGame(Player p1, Player p2) {
+
+    }
+
     @Override
     public void attack(Move moveToAttack) {
 
