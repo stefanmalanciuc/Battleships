@@ -17,7 +17,7 @@ public class Game implements GameBattleships {
         currentRound =1;
     }
 
-    public void initGame(Player p1, Player p2) {
+    public void startGame(Player p1, Player p2) {
 
     }
 
