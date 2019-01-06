@@ -1,4 +1,4 @@
-import javax.sound.sampled.Line;
+package com.company;
 
 public class Board {
 
