@@ -3,6 +3,15 @@ package com.company.Player;
 public class Player {
 
     private String PlayerName;
+    private int Score;
+
+    public int getScore() {
+        return Score;
+    }
+
+    public void setScore(int score) {
+        Score = score;
+    }
 
     public Player(String name) {
         PlayerName = name;
@@ -16,8 +25,5 @@ public class Player {
         return PlayerName;
     }
 
-    private int Score;{
 
-
-    }
 }
